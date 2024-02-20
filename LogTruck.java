@@ -12,8 +12,8 @@ import java.util.Scanner;
 /**
 * This is the standard "LogTruck" program.
 */
-final class LogTruck  {
-    
+final class LogTruck {
+
     /**
     * Prevent instantiation.
     * Throw an exception IllegalStateException.
