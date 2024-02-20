@@ -7,10 +7,9 @@
 * @since   2024-02-19
 */
 
-/**
-* This is the standard "Hello, World!" program.
-*/
-final class LogTruckProgram  {
+import java.util.Scanner;
+
+final class LogTruck  {
 
     /**
     * Prevent instantiation.
@@ -20,7 +19,7 @@ final class LogTruckProgram  {
     * @throws IllegalStateException if this is ever called
     *
     */
-    private LogTruckProgram () {
+    private LogTruck () {
         throw new IllegalStateException("Cannot be instantiated");
     }
 
